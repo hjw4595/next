@@ -1,11 +1,8 @@
-.container {
-  padding: 0 2rem;
-}
 
 .main {
   min-height: 100%;
-  padding: 4rem 0;
 }
+
 .main-contents {
   min-height: 100%;
   padding: 4rem 0;
@@ -14,6 +11,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.main-title {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .footer {

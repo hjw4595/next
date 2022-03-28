@@ -1,8 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
-import Card from "../components/common/card";
 import styles from "../styles/Home.module.css";
+
+import Intro from "../components/page/main/Intro";
+import Nav from "components/page/Nav";
+import Category from "components/page/main/Category";
+import Contents from "components/page/main/Contents";
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +16,11 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <Card content="content" image="img" profile="profile" />
+        <Nav />
+        <Intro />
+        <h1 className={styles['main-title']}>Explore Collections</h1>
+        <Category />
+        <Contents />
       </main>
 
       <footer className={styles.footer}></footer>

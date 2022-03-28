@@ -1,0 +1,21 @@
+.wrapepr {
+   display: flex;
+   padding : 0 1rem;
+   line-height: 4rem;
+   justify-content: space-between;
+   border-bottom: 1px solid black;
+}
+
+.nav-index{
+   display: flex;
+}
+
+.item{
+   margin-left: 1rem;
+   color: #606470;
+}
+
+.svg-item{
+   margin-left: 1rem;
+   margin-top: 0.5rem;
+}

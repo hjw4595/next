@@ -1,11 +1,11 @@
 .wrapper {
   position: relative;
-  width: 15rem;
+  width: 30rem;
   border: 1px solid black;
 }
 
 .image {
-  line-height: 6rem;
+  line-height: 12rem;
 }
 
 .content {
@@ -17,10 +17,10 @@
   position: absolute;
   background-color: green;
   z-index: 999;
-  top: 4.5rem;
-  left: 6rem;
+  top: 10rem;
+  left: 13rem;
   border: 1px solid black;
-  line-height: 3rem;
-  width: 3rem;
+  line-height: 4rem;
+  width: 4rem;
   border-radius: 50%;
 }

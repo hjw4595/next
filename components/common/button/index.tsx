@@ -8,9 +8,11 @@ export interface PropTypes {
 }
 
 function Button({ text, status, onClick }: PropTypes) {
-  <button className={styles[`${status}`]} onClick={onClick}>
-    {text}
-  </button>;
+  return (
+    <button className={styles[`${status}`]} onClick={onClick}>
+      {text}
+    </button>
+  )
 }
 
 export default Button;
