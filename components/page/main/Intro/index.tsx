@@ -9,7 +9,6 @@ import Button from 'components/common/button'
 function Intro() {
     return (
     <div className={styles.wrapper}>
-        
         <div className={styles.content}>
             <h1>
                 알고 구매하자, 
@@ -26,8 +25,8 @@ function Intro() {
             </div>
         </div>
         <div className={styles.card}>
-            <Image src={introCardImage} alt='intro image' width={1000} height={700}  />
-            <div>
+            <Image className={styles['card-image']} src={introCardImage} alt='intro image' width={1000} height={600}  />
+            <div className={styles['card-text']} >
                 EVENT TEXT
             </div>
         </div>

@@ -1,0 +1,12 @@
+.confirm {
+    line-height: 2rem;
+    width : 6rem;
+    margin: 0.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.normal {
+    line-height: 2rem;
+}

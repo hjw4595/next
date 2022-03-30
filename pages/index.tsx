@@ -19,8 +19,11 @@ const Home: NextPage = () => {
         <Nav />
         <Intro />
         <h1 className={styles['main-title']}>Explore Collections</h1>
+        <div className={styles.contents}>
         <Category />
         <Contents />
+
+        </div>
       </main>
 
       <footer className={styles.footer}></footer>
