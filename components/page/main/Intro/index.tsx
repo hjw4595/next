@@ -4,12 +4,15 @@ import Image from 'next/image'
 import introCardImage from '/image/intro.jpg'
 
 import styles from './intro.module.css'
+
 import Button from 'components/common/button'
 
 function Intro() {
     return (
     <div className={styles.wrapper}>
+        <div className={styles['bg-image']}></div>
         <div className={styles.content}>
+        <div className={styles.text}>
             <h1>
                 알고 구매하자, 
             </h1>
@@ -29,6 +32,8 @@ function Intro() {
             <div className={styles['card-text']} >
                 EVENT TEXT
             </div>
+        </div>
+
         </div>
     </div>
     )

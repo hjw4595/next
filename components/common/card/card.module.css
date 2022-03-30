@@ -1,26 +1,25 @@
 .wrapper {
-  position: relative;
   flex: 0 0 25rem;
   border: 1px solid black;
 }
 
 .image {
-  line-height: 12rem;
+  line-height: 10rem;
+  border-bottom: 1px solid black;
+  margin-bottom: -2rem;
 }
 
 .content {
-  line-height: 6rem;
-  border-top: 1px solid black;
+  line-height: 8rem;
 }
 
 .profile {
-  position: absolute;
-  background-color: green;
   z-index: 999;
-  top: 10rem;
-  left: 10rem;
-  border: 1px solid black;
+  text-align: center;
+  margin: auto;
   line-height: 4rem;
   width: 4rem;
+  border: 1px solid black;
+  background-color: green;
   border-radius: 50%;
 }
