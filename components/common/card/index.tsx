@@ -1,4 +1,6 @@
 import React from "react";
+import Image from 'next/image';
+
 import styles from "./card.module.css";
 
 export interface PropTypes {
@@ -11,8 +13,10 @@ export interface PropTypes {
 function Card({ image, profile, content, classname = 'wrapper' }: PropTypes) {
   return (
     <div className={styles[`${classname}`]}>
-      <div className={styles.image}>{image}</div>
-      <div className={styles.profile}>{profile}</div>
+      <div className={styles.image}>
+        <Image src={image} alt='card image' width='100%' height='100%' layout="responsive"/>
+      </div>
+        <Image className={styles['profile-image']} src={profile} alt='profile image' width={64} height={64}/>
       <div className={styles.content}>{content}</div>
     </div>
   );
