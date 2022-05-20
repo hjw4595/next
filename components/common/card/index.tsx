@@ -4,7 +4,7 @@ import Image from 'next/image';
 import styles from "./card.module.css";
 
 export interface PropTypes {
-  image: string;
+  image: string ;
   profile: string;
   content: React.ReactNode;
   classname?: string;

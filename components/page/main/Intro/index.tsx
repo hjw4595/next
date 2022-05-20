@@ -1,11 +1,10 @@
 import React from 'react';
-import Image from 'next/image'
+import Image from 'next/image';
 
-import introCardImage from '/image/intro.jpg'
+import styles from './intro.module.css';
 
-import styles from './intro.module.css'
-
-import Button from 'components/common/button'
+import IntroCardImage from '/image/intro.jpg';
+import Button from 'components/common/button';
 
 function Intro() {
     return (
@@ -28,7 +27,7 @@ function Intro() {
             </div>
         </div>
         <div className={styles.card}>
-            <Image className={styles['card-image']} src={introCardImage} alt='intro image' width={1000} height={600}  />
+            <Image className={styles['card-image']} src={IntroCardImage} alt='intro image' width={1000} height={600}  />
             <div className={styles['card-text']} >
                 EVENT TEXT
             </div>

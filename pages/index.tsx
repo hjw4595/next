@@ -3,7 +3,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 
 import Intro from "../components/page/main/Intro";
-import Nav from "components/page/Nav";
+import Nav from "components/page/nav";
 import Category from "components/page/main/Category";
 import Contents from "components/page/main/Contents";
 
