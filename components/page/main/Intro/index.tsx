@@ -6,7 +6,15 @@ import styles from './intro.module.css';
 import IntroCardImage from '/image/intro.jpg';
 import Button from 'components/common/button';
 
+import Arrow from '/svg/uparrow.svg'
+import Circle from '/svg/circle.svg'
+
 function Intro() {
+
+    const arrowClick = () => {
+
+    }
+
     return (
     <div className={styles.wrapper}>
         <div className={styles['bg-image']}></div>
@@ -27,6 +35,21 @@ function Intro() {
             </div>
         </div>
         <div className={styles.card}>
+            <div className={styles['card-controll']}>
+                <div className={styles['arrow-container']}>
+                    <Arrow onClick={arrowClick} className={styles['left-arrow']} alt='arrow' width={24} height={24}  />
+                    <Arrow onClick={arrowClick} className={styles['right-arrow']} alt='arrow' width={24} height={24}  />
+                </div>
+                <div className={styles['circle-container']}>
+                    <Circle />
+                    <Circle />
+                    <Circle />
+                    <Circle />
+                    <Circle />
+                </div>
+            </div>
+            <div className={styles['arrow-container']}>
+            </div>
             <Image className={styles['card-image']} src={IntroCardImage} alt='intro image' width={1000} height={600}  />
             <div className={styles['card-text']} >
                 EVENT TEXT

@@ -35,10 +35,10 @@ return (
                 </Link>
             </li>      
             <li className={styles['svg-item']}>
-            <Image src={Account} alt='account' width={24} height={24}  />
+            <Account alt='account' width={24} height={24}  />
             </li>      
             <li className={styles['svg-item']}>
-            <Image src={Wallet} alt='wallet' width={24} height={24}  />
+            <Wallet alt='wallet' width={24} height={24}  />
             </li>
         </ul>
     </div>
