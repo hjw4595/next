@@ -41,11 +41,13 @@ function Intro() {
                     <Arrow onClick={arrowClick} className={styles['right-arrow']} alt='arrow' width={24} height={24}  />
                 </div>
                 <div className={styles['circle-container']}>
-                    <Circle />
-                    <Circle />
-                    <Circle />
-                    <Circle />
-                    <Circle />
+                    <div className={styles['circle-list']}>
+                        <Circle fill='white'/>
+                        <Circle fill='black' />
+                        <Circle fill='white' />
+                        <Circle fill='white'/>
+                        <Circle fill='white' />
+                    </div>
                 </div>
             </div>
             <div className={styles['arrow-container']}>
