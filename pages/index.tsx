@@ -18,11 +18,10 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <Nav />
         <Intro />
-        <h1 className={styles['main-title']}>Explore Collections</h1>
+        <h1 className={styles["main-title"]}>Explore Collections</h1>
         <div className={styles.contents}>
-        <Category />
-        <Contents />
-
+          <Category />
+          <Contents />
         </div>
       </main>
 
