@@ -5,3 +5,5 @@
 
 1. 설치
    yarn create next-app {filename}
+2. 배포
+   https://next-indol-kappa.vercel.app
